@@ -1,0 +1,23 @@
+Kandang Bebek
+Batas Waktu: 1 detik
+Batas Memori: 64 MB
+
+Pak Dengklek memiliki N ekor bebek. Ia ingin menempatkan bebek-bebeknya tersebut pada kandang-kandang. Ia juga ingin agar setiap kandang berisi paling banyak M ekor bebek.
+
+Tentukan jumlah kandang paling sedikit yang diperlukan Pak Dengklek.
+
+Batasan
+1 ≤ N ≤ 1.000.000.000
+1 ≤ M ≤ 1.000.000.000
+
+Format Masukan
+Sebuah baris berisi sebuah bilangan bulat N dan M, dipisahkan oleh sebuah spasi.
+
+Format Keluaran
+Sebuah baris berisi jumlah kandang paling sedikit.
+
+Contoh Masukan
+12 5
+
+Contoh Keluaran
+3
