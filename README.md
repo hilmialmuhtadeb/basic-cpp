@@ -12,3 +12,6 @@ Materials i study :
 ## COMPFEST UI 14 2022
 I've registrated for SCPC (Senior Compettitive Programming Competition) COMPFEST UI. Su-Ngaw stands for Surabaya-Ngawi, hope with this name i can keep my spirit 
 of learning CP 😬
+
+## Learning Notes
+https://www.notion.so/Su-Ngaw-Competitive-Programming-34b584b55fb641968101ad5d4084a896
