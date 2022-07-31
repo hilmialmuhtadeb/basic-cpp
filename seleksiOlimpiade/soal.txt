@@ -1,0 +1,45 @@
+Time Limit: 1s
+Memory Limit: 64mb
+
+Deskripsi
+Agak unik, pada seleksi olimpiade kali ini, peserta yang lulus bukan dilihat dari jumlah nilai yang ia peroleh secara keseluruhan, melainkan jumlah nilai yang ia peroleh persesi.
+
+Terdapat tiga sesi pada seleksi olimpiade, yaitu sesi 1, sesi 2, dan sesi 3. Nilai sesi 1 berkisar antara 0 sampai dengan 500, sedangkan nilai sesi 2 berkisar antara 0 sampai dengan 1000, dan nilai sesi 3 berkisar antara 0 sampai dengan 500. Karena sesi 3 dirasa sebagai sesi tersulit dan sesi 1 dirasa sebagai sesi termudah, maka peserta yang lulus pertama-tama dilihat berdasarkan nilai sesi 3-nya. Semakin besar nilai peserta pada sesi 3, semakin tinggi pula peringkatnya. Jika terdapat beberapa peserta yang nilai sesi 3-nya sama, barulah nilai sesi 2 dibandingkan (semakin besar nilai pada sesi 2, semakin tinggi pula peringkat), dan terakhir baru dibandingkan menggunakan nilai sesi 1.
+
+Pak Dengklek sebagai juri pada olimpiade tersebut menerima daftar N peserta seleksi, dan akan meluluskan M peserta seleksi. Tentukan untuk setiap peserta apakah dia lulus seleksi atau tidak.
+
+Format Masukan
+Baris pertama berisi sebuah bilangan bulat T yaitu banyaknya seleksi yang diadakan. Untuk setiap seleksi, baris pertama berisi dua buah bilangan bulat N dan M. Baris kedua berisi ID peserta yang Anda perlu tentukan kelulusannya. N baris berikutnya masing-masing berisi ID peserta diikuti nilai sesi 1, sesi 2, dan sesi 3 secara berurutan masing-masing dipisahkan sebuah spasi.
+
+Format Keluaran
+T buah baris, masing-masing berisi YA jika pada seleksi yang bersangkutan peserta yang ID-nya diberikan di baris kedua lulus, atau TIDAK jika tidak lulus.
+
+Contoh Masukan
+2
+3 1
+P0001
+P0001 10 100 100
+P0002 0 0 200
+P0003 1 100 100
+3 2
+P0001
+P0001 10 100 100
+P0002 0 0 200
+P0003 1 100 100
+Contoh Keluaran
+TIDAK
+YA
+Batasan
+1 ≤ T ≤ 8
+1 ≤ N ≤ 80
+0 ≤ M ≤ N
+Semua ID peserta terdiri dari tepat 5 karakter yang mungkin merupakan huruf besar atau angka.
+Dijamin tidak ada dua ID peserta yang identik pada suatu seleksi.
+Dijamin tidak ada dua peserta yang memperoleh nilai yang persis sama untuk semua sesi.
+Penjelasan
+Pada kedua seleksi pada contoh masukan, peringkat akhir peserta adalah sebagai berikut:
+
+P0002 0 0 200
+P0001 10 100 100
+P0003 1 100 100
+Oleh karena itu, jika hanya 1 peserta diluluskan, P0001 tidak termasuk, sedangkan jika 2 peserta diluluskan, P0001 termasuk.
